@@ -9,9 +9,9 @@ def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   if !hash[key]
   puts nil
-else
-  puts hash[key]
-end
+# else
+#   puts hash[key]
+# end
 end
 
 def update_counting_hash(hash, key)
