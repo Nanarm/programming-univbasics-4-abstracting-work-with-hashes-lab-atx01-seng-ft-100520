@@ -8,7 +8,7 @@ end
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   if hash[key]
-  puts hash[key]
+  # puts hash[key]
 else
   puts nil
 end
