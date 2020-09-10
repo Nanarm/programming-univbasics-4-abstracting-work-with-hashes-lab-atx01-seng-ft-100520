@@ -7,10 +7,10 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  puts hash[key]
-  
-else
+  if !hash[key]
   puts nil
+else
+  puts hash[key]
 end
 end
 
